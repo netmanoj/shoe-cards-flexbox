@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0e7ef;
+    margin: 0;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 66%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: #2980b9;
+    box-shadow: 0 0 1px rgba(0, 21, 255, 0.1);
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 40px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    max-width: 150px;
+    height: auto;
+    flex-shrink: 0; 
+}
+
+.text {
+    flex: 1; 
+    margin-right: 20px;
+    white-space: nowrap; 
+}
+
+.text h2, .text p {
+    margin: 0;
+}
+
+.text p {
+    margin: 10px 0;
+    font-size: 17px;
+}
+
+button {
+    background-color: #c0392b;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 25px 50px;
+    cursor: pointer;
+}
+
+.sporty h2 {
+    color: #c0392b;
+    font-size: 30px;
+}
+
+.sporty button {
+    background-color: #c0392b;
+}
+
+.casual h2 {
+    color: #2980b9;
+    font-size: 30px;
+}
+
+.casual button {
+    background-color: #2980b9;
+}
+
+.formal h2 {
+    color: #6d4c41;
+    font-size: 30px;
+}
+
+.formal button {
+    background-color: #6d4c41;
+}
